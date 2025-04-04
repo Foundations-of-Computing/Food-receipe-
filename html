@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="food-recipy-front-card">
+                <h1 class="main-heading"> FOOD RECIPES!</h1>
+                <p class="paragraph"> "A recipe has no soul. You, as the cook, must bring soul to the recipe."</p>
+                <button class="button" onclick="display('sectionfavouriteplaces')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfavouriteplaces">
+        <div class="food-recipe-bg-container">
+            <h1 class="page2-heading">Let's Explore some foods...</h1>
+            <div class="favourite-food-card-container d-flex flex-row" onclick="display('sectionfluffypancakedetailedview')">
+                <div>
+                    <h1 class="favourite-food-card-heading">Fluffy Pancake</h1>
+                    <p class="favourite-food-card-description">Flipping into the day with a stack of happiness 🥞. ..</p>
+                </div>
+                <img src="https://img.freepik.com/free-photo/front-view-pancake-tower-with-pomegranate-seeds_23-2148354704.jpg?t=st=1741426604~exp=1741430204~hmac=cd3e1789be4b5c3967c0548fa9d30d18dbcf7c1a7e18bcab6037786e6d53faba&w=740" class="favourite-food-card-image" />
+            </div>
+            <div class="favourite-food-card-container d-flex flex-row" onclick="display('sectiongarlicbutterchickenrecipe')">
+                <div>
+
+                    <h1 class="favourite-food-card-heading">Garlic Butter Chicken With Vegetables</h1>
+                    <p class="favourite-food-card-description">A classic dish that has tantalized taste buds arount the world which has attracting food enthusiasts with its creamy texture.</p>
+                </div>
+                <img src="https://img.freepik.com/free-photo/pre-prepared-food-showcasing-ready-eat-delicious-meals-go_23-2151246080.jpg?t=st=1741427198~exp=1741430798~hmac=208587eb7a44657cd73b2bede89049f7bdcbceba280c049aedcc3c6cccaef0d7&w=740" class="favourite-food-card-image" />
+
+            </div>
+
+            <div class="favourite-food-card-container d-flex flex-row" onclick="display('sectioncreamytomatobasilsoupdetailedrecipe')">
+                <div>
+                    <h1 class="favourite-food-card-heading">Creamy Tomato Basil Soup</h1>
+                    <p class="favourite-food-card-description">The real butter, fresh basil, and heavy cream, the secrets to the richness of this soupand the roasted tomatoes give it a rich umami flavor!! </p>
+                </div>
+                <img src="https://img.freepik.com/free-photo/warm-tomato-soup-serve-bowl_1150-42621.jpg?t=st=1741427767~exp=1741431367~hmac=78de69479e39cc3145df4664f34905732c143b5d094bb068b964e07f94b340f1&w=1060" class="favourite-food-card-image" />
+            </div>
+
+            <div class="favourite-food-card-container d-flex flex-row" onclick="display('sectionspicyhoneygarlicshrimpdetailedrecipe')">
+                <div>
+                    <h1 class="favourite-food-card-heading">Spicy Honey Garlic Shrimp</h1>
+                    <p class="favourite-food-card-description">The lip-smacking honey garlic sauce has sriracha to give it an added spicy boost! </p>
+                </div>
+                <img src="https://img.freepik.com/free-photo/delicious-seafood-table_23-2150857704.jpg?t=st=1741428282~exp=1741431882~hmac=cf6c68568632d5c021d3d509d0393d17ad42d8b5928ed84d49cc92f84361144f&w=1060" class="favourite-food-card-image" />
+            </div>
+            <div class="favourite-food-card-container d-flex flex-row" onclick="display('sectionchocolatemugcake')">
+                <div>
+                    <h1 class="favourite-food-card-heading">Chocolate Mug Cake</h1>
+                    <p class="favourite-food-card-description">It's a great recipe for nights when there is a need of yummy dessert,fudgy, chocolaty treat that is truly decadent. </p>
+                </div>
+                <img src="https://img.freepik.com/free-photo/chocolate-brownies-with-cinnamons-cup-coffee_114579-4781.jpg?t=st=1741428510~exp=1741432110~hmac=79334e6757bbd62645eaeec87c057812a125cab12a6bc7bb4234814b8628f595&w=996" class="favourite-food-card-image" />
+            </div>
+            <div class="favourite-food-card-container d-flex flex-row" onclick="display('sectionstrawberrysmoothiedetailedrecipe')">
+                <div>
+                    <h1 class="favourite-food-card-heading">Strawberry Banana Smoothie</h1>
+                    <p class="favourite-food-card-description">It is easy to make and always tastes so sweet and refreshing. </p>
+                </div>
+                <img src="https://img.freepik.com/free-photo/assortment-three-milkshake-glasses-with-fruits-chocolate_23-2148707772.jpg?t=st=1741428641~exp=1741432241~hmac=e48632c57f47def5addfdc5ec9b85574ce706932b4457cc45bf215d7c92f5134&w=740" class="favourite-food-card-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionhome')"> Go Back</button>
+        </div>
+
+    </div>
+
+    <button class="btn btn-dark" onclick="display('sectionhome')">back</button>
+    </div>
+    <div id="sectionfluffypancakedetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed Recipe</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/free-photo/pancakes-with-homemade-delicious-jam_23-2148525170.jpg?t=st=1741430628~exp=1741434228~hmac=72d1d7fd7fdd64beb6c5b237e4787918c75a1bf22c3f2582965418f81fcfccef&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/front-view-delicious-round-pancakes-delicious-baked-pancake-pastry-cooking_140725-21704.jpg?t=st=1741430086~exp=1741433686~hmac=2f64ccba3d322aa4ca2289f6acfedb8e13e29ed62b8c7cec14ee39dd7fa6c158&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/cheese-pancake-with-honey_1339-5254.jpg?t=st=1741430123~exp=1741433723~hmac=6cbfbe275e8eb849602002e7f2fc5cc891e5bdb895ff5be628988a01ecf797e6&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Fluffy Pancake</h1>
+                    <p class="detailed-view-card-description">
+                        Ingredients:
+                        1 cup flour
+                        2 tbsp sugar
+                        1 tbsp baking powder
+                        1/2 tsp salt
+                        1 cup milk
+                        1 egg
+                        2 tbsp melted butter/oil
+                        1 tsp vanilla
+                        Steps:
+                        Mix dry ingredients (flour, sugar, baking powder, salt).
+                        Mix wet ingredients (milk, egg, melted butter, vanilla).
+                        Combine wet and dry ingredients, stir gently.
+                        Heat a skillet, lightly grease it.
+                        Pour 1/4 cup batter onto skillet, cook until bubbles form, then flip.
+                        Serve with toppings of choice!
+                        Enjoy!
+                    </p>
+
+                </div>
+
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouriteplaces')">back</button>
+        </div>
+
+    </div>
+    </div>
+    <div id="sectiongarlicbutterchickenrecipe">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed Recipe</h1>
+            <div class="detailed-view-card-container">
+                <div id="garlicbutterchickencarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine-top-view_2829-6243.jpg?t=st=1741431923~exp=1741435523~hmac=c38b49a4f19d0ecb60d8879a6ec05f6ea70bd6385c5ce9b10aa037d247802918&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/chicken-stir-fried-chili-along-with-bell-pepper-tomatoes-carrots_1150-27209.jpg?t=st=1741431973~exp=1741435573~hmac=95a74b7a0a3fb64b194f194e57ded3e73c3b551899cf22e2124195c74bf67f3c&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/chicken-stir-fried-chili-along-with-bell-pepper-tomatoes-carrots_1150-27215.jpg?t=st=1741432005~exp=1741435605~hmac=9a4e61cb93fcef9ee9eafdbd0ffdf03017cb00b56e00d29f9f8f11dba1403f02&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Garlic Butter Chicken With Vegetables</h1>
+                    <p class="detailed-view-card-description">
+                        Ingredients:
+                        2 chicken breasts
+                        2 tbsp olive oil
+                        4 tbsp butter (divided)
+                        4 garlic cloves (minced)
+                        1 tsp thyme & rosemary
+                        Salt & pepper
+                        1 cup carrots, broccoli, and bell peppers
+                        Parsley (optional)
+                        Steps:
+                        Season and cook chicken in oil for 6-7 minutes per side. Set aside.
+                        In the same skillet, melt 2 tbsp butter, add garlic, thyme, and rosemary, cook for 1-2 minutes.
+                        Add veggies, sauté for 5-7 minutes until tender.
+                        Return chicken, spoon garlic butter over it, cook 2-3 minutes more.
+                        Serve with parsley (optional).
+                    </p>
+                </div>
+
+            </div>
+
+
+            <button class="btn btn-dark" onclick="display('sectionfavouriteplaces')">back</button>
+        </div>
+    </div>
+    </div>
+    <div id="sectioncreamytomatobasilsoupdetailedrecipe">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed recipe</h1>
+            <div class="detailed-view-card-container">
+                <div id="tomatosoupcarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src=" https://img.freepik.com/free-photo/top-view-delicious-tomato-soup-tasty-dish-with-single-leaf-inside-plate-dark-background-dish-sauce-tomato-color-soup_140725-96797.jpg?t=st=1741444227~exp=1741447827~hmac=329d9cf389064a18ce0c771631a95e0fdf17a1709e8428fdbe0a9c127b2f92f3&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/warm-tomato-soup-serve-bowl_1150-42621.jpg?t=st=1741427767~exp=1741431367~hmac=78de69479e39cc3145df4664f34905732c143b5d094bb068b964e07f94b340f1&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.freepik.com/free-photo/flat-lay-arrangement-with-delicious-local-food-meal_23-2148833826.jpg?t=st=1741444324~exp=1741447924~hmac=c36cc87ca77f725789d3282580317247dfaa2246fb3eb79bfc35f64ee51a73fa&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Creamy Tomato Basil Soup</h1>
+                    <p class="detailed-view-card-description">
+                        Ingredients:
+                        1 tbsp olive oil
+                        1 small onion (chopped)
+                        2 garlic cloves (minced)
+                        1 can (28 oz) crushed tomatoes
+                        1 cup broth
+                        1/2 tsp basil
+                        1/4 tsp sugar (optional)
+                        1/2 cup heavy cream
+                        Salt & pepper
+                        Fresh basil (for garnish)
+                        Steps:
+                        Sauté onion and garlic in olive oil for 3-4 minutes.
+                        Add tomatoes, broth, basil, and sugar; simmer for 15-20 minutes.
+                        Blend the soup until smooth.
+                        Stir in heavy cream, season with salt and pepper.
+                        Serve with fresh basil on top.
+                        Enjoy!
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouriteplaces')">back</button>
+        </div>
+    </div>
+
+    <div id="sectionspicyhoneygarlicshrimpdetailedrecipe">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed Recipe</h1>
+            <div class="detailed-view-card-container">
+                <div id="spicyhoneyshrimpcarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src=" https://img.freepik.com/free-photo/delicious-seafood-table_23-2150857704.jpg?t=st=1741428282~exp=1741431882~hmac=cf6c68568632d5c021d3d509d0393d17ad42d8b5928ed84d49cc92f84361144f&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535861.jpg?t=st=1741445600~exp=1741449200~hmac=7c1a296940c6e96b1adbd5d9a1075c9e4f8fce20bc5d0bb9bde9257d3b709ccf&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" https://img.freepik.com/free-photo/stir-fried-shrimp-with-chili-paste_1150-38075.jpg?t=st=1741446064~exp=1741449664~hmac=bc633e8efec5ea6a6bb353bf8043344c123c35672ef603a9dbb4110e42616cc5&w=1060" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Spicy Honey Garlic Shrimp</h1>
+                    <p class="detailed-view-card-description">
+                        Ingredients:
+                        1 lb shrimp
+                        2 tbsp olive oil
+                        3 garlic cloves (minced)
+                        2 tbsp honey
+                        1 tbsp soy sauce
+                        1 tbsp sriracha
+                        1/2 tsp red pepper flakes (optional)
+                        Salt and pepper
+                        Fresh cilantro (for garnish)
+                        Steps:
+                        Cook shrimp in olive oil for 2-3 minutes per side, then set aside.
+                        Sauté garlic, then add honey, soy sauce, sriracha, and red pepper flakes. Cook for 2-3 minutes.
+                        Toss shrimp in the sauce and cook for 1-2 minutes.
+                        Garnish with cilantro and serve.
+                        Enjoy!
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-dark" onclick="display('sectionfavouriteplaces')">back</button>
+                </div>
+            </div>
+            <div id="sectionchocolatemugcake">
+                <div class="detailed-view-bg-container">
+                    <h1 class="detailed-view-heading">Detailed Recipe</h1>
+                    <div class="detailed-view-card-container">
+                        <div id="chocolatemugcakecarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://img.freepik.com/free-photo/chocolate-brownies-with-cinnamons-cup-coffee_114579-4781.jpg?t=st=1741428510~exp=1741432110~hmac=79334e6757bbd62645eaeec87c057812a125cab12a6bc7bb4234814b8628f595&w=996" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src=" https://img.freepik.com/free-photo/sweet-cup-tasty-chocolate-mousse-with-strawberry-syrup-inside_114579-1834.jpg?t=st=1741446647~exp=1741450247~hmac=21fc1c75d189068633428282acd1f8496860b4898a784e2548c64c8887b4427a&w=900" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="  https://img.freepik.com/free-photo/top-view-little-choco-cake-with-candles-purple-flowers-tea-grey-desk-biscuit-cookie-cake-chocolate-tea_140725-28174.jpg?t=st=1741446784~exp=1741450384~hmac=a75d340d9bc3c3732c4d870ebeccd614fffc7ad68adf16b7e9fad4ce88dcc2e8&w=1060" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="detailed-view-card-text-container">
+                            <h1 class="detailed-view-card-heading">Chocolate Mug Cake</h1>
+                            <p class="detailed-view-card-description">
+                                Ingredients:
+                                4 tbsp flour
+                                4 tbsp sugar
+                                2 tbsp cocoa powder
+                                1/8 tsp baking powder
+                                Pinch of salt
+                                3 tbsp milk
+                                2 tbsp oil
+                                1/4 tsp vanilla extract
+                                Optional: chocolate chips
+                                Steps:
+                                Mix dry ingredients in a mug.
+                                Add milk, oil, and vanilla; stir until smooth.
+                                Microwave for 1-1.5 minutes.
+                                Let cool slightly and enjoy!
+                                Optional: Top with whipped cream or ice cream!
+                            </p>
+                        </div>
+                    </div>
+                    <button class="btn btn-dark" onclick="display('sectionfavouriteplaces')">back</button>
+                </div>
+            </div>
+            <div id="sectionstrawberrysmoothiedetailedrecipe">
+                <div class="detailed-view-bg-container">
+                    <h1 class="detailed-view-heading">Detailed Recipe</h1>
+                    <div class="detailed-view-card-container">
+                        <div id="strawberrysmoothiecarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://img.freepik.com/free-photo/fresh-strawberry-banana-smoothie-jar-wooden-table_123827-20784.jpg?t=st=1741447396~exp=1741450996~hmac=2266d1ed8cf3755369bdeaa8feebb2739f9ce43c6a88c523304815502810eb15&w=1060" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://img.freepik.com/free-photo/assortment-milkshake-glasses-with-fruits-chocolate_23-2148707756.jpg?t=st=1741447429~exp=1741451029~hmac=0db8d73ac28e0f45fb161ddc599ae63da2783e78307993dbe61a4d525e55765b&w=1380" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src=" https://img.freepik.com/free-photo/preparing-strawberry-banana-smoothie-mixer-wooden-table_123827-20924.jpg?t=st=1741447689~exp=1741451289~hmac=aeb3bfb7571b2c262657ecfd4f48c01345c6db1c0745da98f184ef4495a4f227&w=1060" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="detailed-view-card-text-container">
+                            <h1 class="detailed-view-card-heading">Strawberry Banana Smoothie</h1>
+                            <p class="detailed-view-card-description">
+                                Ingredients:
+                                1 ripe banana
+                                1 cup fresh or frozen strawberries
+                                1/2 cup Greek yogurt (or regular yogurt)
+                                1/2 cup milk (or almond milk)
+                                1 tbsp honey (optional)
+                                Ice (optional, for a thicker smoothie)
+                                Instructions:
+                                Add all ingredients (banana, strawberries, yogurt, milk, honey) into a blender.
+                                Blend until smooth.
+                                If you want a thicker smoothie, add ice and blend again.
+                                Pour into a glass and serve!
+                                Enjoy your delicious Strawberry Banana Smoothie!
+                            </p>
+                            <ul class="detailed-view-card-description unordered-list">
+                                <li>Banana: Adds natural sweetness and creaminess to the smoothie.</li>
+                                <li>Strawberries: Provides a fruity, refreshing flavor and is rich in vitamin C.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="btn btn-dark" onclick="display('sectionfavouriteplaces')">back</button>
+
+
+
+                    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+                  </html>
